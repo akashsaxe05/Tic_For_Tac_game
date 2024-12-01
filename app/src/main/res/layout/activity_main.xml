@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="45dp"
+        android:text="@string/gametitle"
+        android:textColor="#DB1140"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+
+            android:backgroundTint="@color/white"
+            android:id="@+id/b1"
+            android:layout_marginLeft="40dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:onClick="Check"
+            android:text=""
+
+            android:textColor="#090909"
+            android:textSize="45sp" />
+        <Button
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="160dp"
+            android:id="@+id/b2"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:onClick="Check"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <Button
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="265dp"
+            android:id="@+id/b3"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:onClick="Check"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+
+        <Button
+            android:backgroundTint="@color/white"
+            android:id="@+id/b4"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="40dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:onClick="Check"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <Button
+            android:backgroundTint="@color/white"
+            android:id="@+id/b5"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="120dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:onClick="Check"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <Button
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="120dp"
+            android:id="@+id/b6"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:onClick="Check"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <Button
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/b7"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:onClick="Check"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <Button
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="230dp"
+            android:id="@+id/b8"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:onClick="Check"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="45sp"/>
+        <Button
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="230dp"
+            android:id="@+id/b9"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:onClick="Check"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="335dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:srcCompat="@drawable/gridimage" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/again"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+
+        android:backgroundTint="#1232D1"
+        android:text="Again!!"
+        android:textColor="@color/white"
+
+        android:textSize="30sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextbt"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:text="@string/next_page"/>
+
+
+</LinearLayout>
